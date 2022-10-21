@@ -1,0 +1,87 @@
+$xs: 0px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+.btn-tr{
+    background-color:transparent;
+    padding:10px 0;
+    outline:none;
+    border: none;
+    font-size:26px;
+    color: #707A83;
+    font-weight: bold;
+    margin: 0 15px;
+    cursor: pointer;
+    &.active{
+        color: #353840;
+        border-bottom: 3px solid #353840;
+
+    }
+}
+
+.btn-outline{
+    background-color:#ffffff;
+    padding:10px 20px;
+    border-radius:10px;
+    outline:none;
+    border: 2px solid #e5e8eb;
+    font-size:20px;
+    color: #707A83;
+    font-weight: bold;
+    margin: 0 15px;
+    cursor: pointer;
+ 
+    
+}
+
+.col-lg-6{
+    width:50%;
+}
+
+.topAndTrending{
+    width: 100%;
+    .container{
+        width: 100%;
+        padding:0px 20px;
+        margin: 40px 0;
+        .head{
+            display: flex;
+            width: 100%;
+            align-items: flex-end;
+            justify-content:space-between;
+            border-bottom:1px solid #cdcdcd;
+
+            .item{
+
+                #time{
+                    border-radius: 12px;
+                    border: 2px solid #e5e8eb;
+                    font-weight: 600;
+                    font-size: 16px;
+                    transition: all 0.25s ease-in-out 0s;
+                    width: 100px;
+                    height:45px;
+                    font-weight: 600;
+                    color: rgb(53, 56, 64);
+                    margin:10px 10px;
+                    padding:5px 10px ;
+                    background-color:#ffffff;
+                    
+
+                    
+                    &:part(listbox) {
+                        padding: 10px;
+                        margin-top: 5px;
+                        border: 1px solid red;
+                        border-radius: 5px;
+                      }
+                }
+            }
+        }
+
+
+
+    }
+}

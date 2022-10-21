@@ -1,0 +1,1209 @@
+{
+    "data": {
+        "collections": {
+            "edges": [
+                {
+                    "node": {
+                        "createdDate": "2021-04-22T23:14:03.967121",
+                        "name": "Bored Ape Yacht Club",
+                        "slug": "boredapeyachtclub",
+                        "logo": "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "76",
+                                "eth": "76"
+                            },
+                            "numOwners": 6402,
+                            "totalSupply": 9998.0,
+                            "totalSales": 27210.0,
+                            "oneHourSales": 0.0,
+                            "oneHourChange": 0.0,
+                            "oneHourVolume": {
+                                "unit": "0",
+                                "eth": "0"
+                            },
+                            "sixHourSales": 0.0,
+                            "sixHourChange": -1.0,
+                            "sixHourVolume": {
+                                "unit": "0",
+                                "eth": "0"
+                            },
+                            "sevenDaySales": 25.0,
+                            "sevenDayChange": -0.21158291359107387,
+                            "sevenDayVolume": {
+                                "unit": "1995.090462100000195278"
+                            },
+                            "oneDaySales": 5.0,
+                            "oneDayChange": 0.19059362668917787,
+                            "oneDayVolume": {
+                                "unit": "424.090000000000031832"
+                            },
+                            "thirtyDaySales": 114.0,
+                            "thirtyDayChange": -0.13238848027209407,
+                            "thirtyDayVolume": {
+                                "unit": "10224.746762099999614293"
+                            },
+                            "totalVolume": {
+                                "unit": "674897.193284400156699121"
+                            },
+                            "totalListed": 679
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6NDg4NjIx"
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-13T16:21:08.816386",
+                        "name": "Nyolings",
+                        "slug": "nyolings",
+                        "logo": "https://i.seadn.io/gcs/files/26c3a14f0f9f2cbe6080d932a09870d0.png?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gcs/files/26c3a14f0f9f2cbe6080d932a09870d0.png?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.207",
+                                "eth": "0.207"
+                            },
+                            "numOwners": 3342,
+                            "totalSupply": 7777.0,
+                            "totalSales": 14414.0,
+                            "oneHourSales": 39.0,
+                            "oneHourChange": -0.21719340424311573,
+                            "oneHourVolume": {
+                                "unit": "9.354609107498999876",
+                                "eth": "9.354609107498999876"
+                            },
+                            "sixHourSales": 419.0,
+                            "sixHourChange": 0.28930664392041017,
+                            "sixHourVolume": {
+                                "unit": "108.917144008621107787",
+                                "eth": "108.917144008621107787"
+                            },
+                            "sevenDaySales": 14414.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "1390.436423081571774674"
+                            },
+                            "oneDaySales": 1653.0,
+                            "oneDayChange": 1.947160326295177,
+                            "oneDayVolume": {
+                                "unit": "345.518280596022748341"
+                            },
+                            "thirtyDaySales": 14414.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "1390.436423081571774674"
+                            },
+                            "totalVolume": {
+                                "unit": "1390.436423081571774674"
+                            },
+                            "totalListed": 1191
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE2NDc1Nzk="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-04-29T13:58:31.855081",
+                        "name": "Otherdeed for Otherside",
+                        "slug": "otherdeed",
+                        "logo": "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "1.47",
+                                "eth": "1.47"
+                            },
+                            "numOwners": 33851,
+                            "totalSupply": 100000.0,
+                            "totalSales": 47971.0,
+                            "oneHourSales": 2.0,
+                            "oneHourChange": -0.7659616525004942,
+                            "oneHourVolume": {
+                                "unit": "3.552000000000000046",
+                                "eth": "3.552000000000000046"
+                            },
+                            "sixHourSales": 27.0,
+                            "sixHourChange": 0.5223577630851852,
+                            "sixHourVolume": {
+                                "unit": "54.823300000000003251",
+                                "eth": "54.823300000000003251"
+                            },
+                            "sevenDaySales": 490.0,
+                            "sevenDayChange": -0.22895193252112894,
+                            "sevenDayVolume": {
+                                "unit": "1481.296110146351793446"
+                            },
+                            "oneDaySales": 105.0,
+                            "oneDayChange": 0.6434891398031843,
+                            "oneDayVolume": {
+                                "unit": "298.103399999999851389"
+                            },
+                            "thirtyDaySales": 1969.0,
+                            "thirtyDayChange": -0.22322789976543064,
+                            "thirtyDayVolume": {
+                                "unit": "6881.646504656313481973"
+                            },
+                            "totalVolume": {
+                                "unit": "351117.60171470238128677"
+                            },
+                            "totalListed": 3315
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MTQwNzcyNTU="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-09-23T19:38:36.520073",
+                        "name": "Primitives by Aranda\\Lasch",
+                        "slug": "primitives-by-aranda-lasch",
+                        "logo": "https://i.seadn.io/gae/aI3doXhNBcO8A91GUZ1TnCClh94rVrABuajlIzMqeY5aFYgagq447YwFxCr4mcIHQquJLGEcWfB_rjEZAWT1NBzB8qt07JVFTHew2Q?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/aI3doXhNBcO8A91GUZ1TnCClh94rVrABuajlIzMqeY5aFYgagq447YwFxCr4mcIHQquJLGEcWfB_rjEZAWT1NBzB8qt07JVFTHew2Q?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.66",
+                                "eth": "0.66"
+                            },
+                            "numOwners": 251,
+                            "totalSupply": 400.0,
+                            "totalSales": 219.0,
+                            "oneHourSales": 2.0,
+                            "oneHourChange": 0.0,
+                            "oneHourVolume": {
+                                "unit": "1.010000000000000009",
+                                "eth": "1.010000000000000009"
+                            },
+                            "sixHourSales": 9.0,
+                            "sixHourChange": -0.12469556746225034,
+                            "sixHourVolume": {
+                                "unit": "5.391000000000000014",
+                                "eth": "5.391000000000000014"
+                            },
+                            "sevenDaySales": 219.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "oneDaySales": 219.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "thirtyDaySales": 219.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "totalVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "totalListed": 155
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjA3Nzc1MzA="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-19T13:52:09.742283",
+                        "name": "Infamous - Official",
+                        "slug": "infamous-official",
+                        "logo": "https://i.seadn.io/gcs/files/9714a469465e25f1f4e762e997269187.jpg?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/9714a469465e25f1f4e762e997269187.jpg?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.096599",
+                                "eth": "0.096599"
+                            },
+                            "numOwners": 2397,
+                            "totalSupply": 5555.0,
+                            "totalSales": 3735.0,
+                            "oneHourSales": 63.0,
+                            "oneHourChange": 0.015004450956505253,
+                            "oneHourVolume": {
+                                "unit": "6.312198999999998783",
+                                "eth": "6.312198999999998783"
+                            },
+                            "sixHourSales": 364.0,
+                            "sixHourChange": -0.002862320013291442,
+                            "sixHourVolume": {
+                                "unit": "34.594084999899997968",
+                                "eth": "34.594084999899997968"
+                            },
+                            "sevenDaySales": 3735.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "205.286939138714785713"
+                            },
+                            "oneDaySales": 2514.0,
+                            "oneDayChange": 3.3459874802227216,
+                            "oneDayVolume": {
+                                "unit": "166.88674836045839811"
+                            },
+                            "thirtyDaySales": 3735.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "205.286939138714785713"
+                            },
+                            "totalVolume": {
+                                "unit": "205.286939138714785713"
+                            },
+                            "totalListed": 374
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3MzQ5OTI="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2021-08-29T00:41:59.548458",
+                        "name": "Mutant Ape Yacht Club",
+                        "slug": "mutant-ape-yacht-club",
+                        "logo": "https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "14.15",
+                                "eth": "14.15"
+                            },
+                            "numOwners": 12940,
+                            "totalSupply": 19426.0,
+                            "totalSales": 35110.0,
+                            "oneHourSales": 0.0,
+                            "oneHourChange": 0.0,
+                            "oneHourVolume": {
+                                "unit": "0",
+                                "eth": "0"
+                            },
+                            "sixHourSales": 1.0,
+                            "sixHourChange": -0.6245656584286241,
+                            "sixHourVolume": {
+                                "unit": "20.356049999999999756",
+                                "eth": "20.356049999999999756"
+                            },
+                            "sevenDaySales": 91.0,
+                            "sevenDayChange": -0.16324864020804503,
+                            "sevenDayVolume": {
+                                "unit": "1404.951304226824959187"
+                            },
+                            "oneDaySales": 9.0,
+                            "oneDayChange": 0.061046875569522575,
+                            "oneDayVolume": {
+                                "unit": "133.906450000000006639"
+                            },
+                            "thirtyDaySales": 470.0,
+                            "thirtyDayChange": 0.07288142231253698,
+                            "thirtyDayVolume": {
+                                "unit": "7502.160207226816964976"
+                            },
+                            "totalVolume": {
+                                "unit": "458542.467968985147308558"
+                            },
+                            "totalListed": 1011
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MTE2Njc5NA=="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2019-05-08T21:59:36.282454",
+                        "name": "ENS: Ethereum Name Service",
+                        "slug": "ens",
+                        "logo": "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.00098",
+                                "eth": "0.00098"
+                            },
+                            "numOwners": 552667,
+                            "totalSupply": 2484582.0,
+                            "totalSales": 232532.0,
+                            "oneHourSales": 22.0,
+                            "oneHourChange": 0.6209208529124352,
+                            "oneHourVolume": {
+                                "unit": "11.464999999999998082",
+                                "eth": "11.464999999999998082"
+                            },
+                            "sixHourSales": 114.0,
+                            "sixHourChange": 3.17399039463068,
+                            "sixHourVolume": {
+                                "unit": "68.702461359799997354",
+                                "eth": "68.702461359799997354"
+                            },
+                            "sevenDaySales": 5488.0,
+                            "sevenDayChange": 0.05399810895369127,
+                            "sevenDayVolume": {
+                                "unit": "1279.855259256031558834"
+                            },
+                            "oneDaySales": 589.0,
+                            "oneDayChange": -0.5611673343413285,
+                            "oneDayVolume": {
+                                "unit": "127.549799446394644065"
+                            },
+                            "thirtyDaySales": 34132.0,
+                            "thirtyDayChange": -0.3031294983045511,
+                            "thirtyDayVolume": {
+                                "unit": "6390.374263873042764317"
+                            },
+                            "totalVolume": {
+                                "unit": "67791.122810533939627931"
+                            },
+                            "totalListed": 331694
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MzA3Mg=="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2021-10-15T22:26:09.685969",
+                        "name": "Fidenza by Tyler Hobbs",
+                        "slug": "fidenza-by-tyler-hobbs",
+                        "logo": "https://i.seadn.io/gcs/files/ae70936496054650faf8ee38a7cab5e8.png?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gcs/files/ae70936496054650faf8ee38a7cab5e8.png?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "96",
+                                "eth": "96"
+                            },
+                            "numOwners": 453,
+                            "totalSupply": 999.0,
+                            "totalSales": 1249.0,
+                            "oneHourSales": 1.0,
+                            "oneHourChange": 0.0,
+                            "oneHourVolume": {
+                                "unit": "119",
+                                "eth": "119.000000000000000000"
+                            },
+                            "sixHourSales": 1.0,
+                            "sixHourChange": 0.0,
+                            "sixHourVolume": {
+                                "unit": "119",
+                                "eth": "119.000000000000000000"
+                            },
+                            "sevenDaySales": 4.0,
+                            "sevenDayChange": -0.2635775127768314,
+                            "sevenDayVolume": {
+                                "unit": "432.279999999999972715"
+                            },
+                            "oneDaySales": 1.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "119"
+                            },
+                            "thirtyDaySales": 20.0,
+                            "thirtyDayChange": 3.832233082180596,
+                            "thirtyDayVolume": {
+                                "unit": "2071.529999999999745341"
+                            },
+                            "totalVolume": {
+                                "unit": "52660.922650761945988052"
+                            },
+                            "totalListed": 54
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE5Njg1Ng=="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-06-09T17:21:03.918736",
+                        "name": "Genuine Undead",
+                        "slug": "genuine-undead",
+                        "logo": "https://i.seadn.io/gcs/files/1eb8d685d4e404c9b1177dfe14c2c9e0.png?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gcs/files/1eb8d685d4e404c9b1177dfe14c2c9e0.png?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.799",
+                                "eth": "0.799"
+                            },
+                            "numOwners": 2519,
+                            "totalSupply": 9996.0,
+                            "totalSales": 35723.0,
+                            "oneHourSales": 2.0,
+                            "oneHourChange": -0.41223608416709334,
+                            "oneHourVolume": {
+                                "unit": "2.21875",
+                                "eth": "2.218750000000000000"
+                            },
+                            "sixHourSales": 19.0,
+                            "sixHourChange": 0.821672305733835,
+                            "sixHourVolume": {
+                                "unit": "17.171993989999997154",
+                                "eth": "17.171993989999997154"
+                            },
+                            "sevenDaySales": 1675.0,
+                            "sevenDayChange": 0.4932667832667569,
+                            "sevenDayVolume": {
+                                "unit": "1448.048051597005041913"
+                            },
+                            "oneDaySales": 101.0,
+                            "oneDayChange": -0.34608816231608014,
+                            "oneDayVolume": {
+                                "unit": "107.382393989999982864"
+                            },
+                            "thirtyDaySales": 6177.0,
+                            "thirtyDayChange": 0.9271790011474398,
+                            "thirtyDayVolume": {
+                                "unit": "3102.161060133442333608"
+                            },
+                            "totalVolume": {
+                                "unit": "6120.535852858040016145"
+                            },
+                            "totalListed": 1390
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MTYzOTI1NDg="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-07T09:09:10.690623",
+                        "name": "PECFriends",
+                        "slug": "pecfriends",
+                        "logo": "https://i.seadn.io/gcs/files/612d4a77da57f219105478c12d6c9897.gif?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/612d4a77da57f219105478c12d6c9897.gif?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.1434999",
+                                "eth": "0.1434999"
+                            },
+                            "numOwners": 495,
+                            "totalSupply": 1000.0,
+                            "totalSales": 1037.0,
+                            "oneHourSales": 110.0,
+                            "oneHourChange": 1.7590898067584264,
+                            "oneHourVolume": {
+                                "unit": "13.993799999999996686",
+                                "eth": "13.993799999999996686"
+                            },
+                            "sixHourSales": 244.0,
+                            "sixHourChange": 0.07207149259721883,
+                            "sixHourVolume": {
+                                "unit": "44.279554444444407579",
+                                "eth": "44.279554444444407579"
+                            },
+                            "sevenDaySales": 725.0,
+                            "sevenDayChange": 15.113371498551551,
+                            "sevenDayVolume": {
+                                "unit": "115.936052758228385073"
+                            },
+                            "oneDaySales": 398.0,
+                            "oneDayChange": 4.900951750643005,
+                            "oneDayVolume": {
+                                "unit": "90.885868768228391446"
+                            },
+                            "thirtyDaySales": 1037.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "123.131074158228415172"
+                            },
+                            "totalVolume": {
+                                "unit": "123.131074158228415172"
+                            },
+                            "totalListed": 141
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE0NzgxNjc="
+                    }
+                }
+            ]
+        },
+        "trendingCollections": {
+            "edges": [
+                {
+                    "node": {
+                        "createdDate": "2022-10-13T16:21:08.816386",
+                        "name": "Nyolings",
+                        "slug": "nyolings",
+                        "logo": "https://i.seadn.io/gcs/files/26c3a14f0f9f2cbe6080d932a09870d0.png?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gcs/files/26c3a14f0f9f2cbe6080d932a09870d0.png?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.207",
+                                "eth": "0.207"
+                            },
+                            "numOwners": 3342,
+                            "totalSupply": 7777.0,
+                            "totalSales": 14414.0,
+                            "sevenDaySales": 14414.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "1390.436423081571774674"
+                            },
+                            "oneHourSales": 39.0,
+                            "oneHourChange": -0.21719340424311573,
+                            "oneHourVolume": {
+                                "unit": "9.354609107498999876",
+                                "eth": "9.354609107498999876"
+                            },
+                            "sixHourSales": 419.0,
+                            "sixHourChange": 0.28930664392041017,
+                            "sixHourVolume": {
+                                "unit": "108.917144008621107787",
+                                "eth": "108.917144008621107787"
+                            },
+                            "oneDaySales": 1653.0,
+                            "oneDayChange": 1.947160326295177,
+                            "oneDayVolume": {
+                                "unit": "345.518280596022748341"
+                            },
+                            "thirtyDaySales": 14414.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "1390.436423081571774674"
+                            },
+                            "totalVolume": {
+                                "unit": "1390.436423081571774674"
+                            },
+                            "totalListed": 1191
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE2NDc1Nzk="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-09-23T19:38:36.520073",
+                        "name": "Primitives by Aranda\\Lasch",
+                        "slug": "primitives-by-aranda-lasch",
+                        "logo": "https://i.seadn.io/gae/aI3doXhNBcO8A91GUZ1TnCClh94rVrABuajlIzMqeY5aFYgagq447YwFxCr4mcIHQquJLGEcWfB_rjEZAWT1NBzB8qt07JVFTHew2Q?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/aI3doXhNBcO8A91GUZ1TnCClh94rVrABuajlIzMqeY5aFYgagq447YwFxCr4mcIHQquJLGEcWfB_rjEZAWT1NBzB8qt07JVFTHew2Q?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.66",
+                                "eth": "0.66"
+                            },
+                            "numOwners": 251,
+                            "totalSupply": 400.0,
+                            "totalSales": 219.0,
+                            "sevenDaySales": 219.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "oneHourSales": 2.0,
+                            "oneHourChange": 0.0,
+                            "oneHourVolume": {
+                                "unit": "1.010000000000000009",
+                                "eth": "1.010000000000000009"
+                            },
+                            "sixHourSales": 9.0,
+                            "sixHourChange": -0.12469556746225034,
+                            "sixHourVolume": {
+                                "unit": "5.391000000000000014",
+                                "eth": "5.391000000000000014"
+                            },
+                            "oneDaySales": 219.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "thirtyDaySales": 219.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "totalVolume": {
+                                "unit": "217.752086867679906845"
+                            },
+                            "totalListed": 155
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjA3Nzc1MzA="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-19T13:52:09.742283",
+                        "name": "Infamous - Official",
+                        "slug": "infamous-official",
+                        "logo": "https://i.seadn.io/gcs/files/9714a469465e25f1f4e762e997269187.jpg?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/9714a469465e25f1f4e762e997269187.jpg?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.096599",
+                                "eth": "0.096599"
+                            },
+                            "numOwners": 2397,
+                            "totalSupply": 5555.0,
+                            "totalSales": 3735.0,
+                            "sevenDaySales": 3735.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "205.286939138714785713"
+                            },
+                            "oneHourSales": 63.0,
+                            "oneHourChange": 0.015004450956505253,
+                            "oneHourVolume": {
+                                "unit": "6.312198999999998783",
+                                "eth": "6.312198999999998783"
+                            },
+                            "sixHourSales": 364.0,
+                            "sixHourChange": -0.002862320013291442,
+                            "sixHourVolume": {
+                                "unit": "34.594084999899997968",
+                                "eth": "34.594084999899997968"
+                            },
+                            "oneDaySales": 2514.0,
+                            "oneDayChange": 3.3459874802227216,
+                            "oneDayVolume": {
+                                "unit": "166.88674836045839811"
+                            },
+                            "thirtyDaySales": 3735.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "205.286939138714785713"
+                            },
+                            "totalVolume": {
+                                "unit": "205.286939138714785713"
+                            },
+                            "totalListed": 374
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3MzQ5OTI="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-04-29T13:58:31.855081",
+                        "name": "Otherdeed for Otherside",
+                        "slug": "otherdeed",
+                        "logo": "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?w=500&auto=format",
+                        "isVerified": true,
+                        "imageUrl": "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "1.47",
+                                "eth": "1.47"
+                            },
+                            "numOwners": 33851,
+                            "totalSupply": 100000.0,
+                            "totalSales": 47971.0,
+                            "sevenDaySales": 490.0,
+                            "sevenDayChange": -0.22895193252112894,
+                            "sevenDayVolume": {
+                                "unit": "1481.296110146351793446"
+                            },
+                            "oneHourSales": 2.0,
+                            "oneHourChange": -0.7659616525004942,
+                            "oneHourVolume": {
+                                "unit": "3.552000000000000046",
+                                "eth": "3.552000000000000046"
+                            },
+                            "sixHourSales": 27.0,
+                            "sixHourChange": 0.5223577630851852,
+                            "sixHourVolume": {
+                                "unit": "54.823300000000003251",
+                                "eth": "54.823300000000003251"
+                            },
+                            "oneDaySales": 105.0,
+                            "oneDayChange": 0.6434891398031843,
+                            "oneDayVolume": {
+                                "unit": "298.103399999999851389"
+                            },
+                            "thirtyDaySales": 1969.0,
+                            "thirtyDayChange": -0.22322789976543064,
+                            "thirtyDayVolume": {
+                                "unit": "6881.646504656313481973"
+                            },
+                            "totalVolume": {
+                                "unit": "351117.60171470238128677"
+                            },
+                            "totalListed": 3315
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MTQwNzcyNTU="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-17T23:47:52.505440",
+                        "name": "Iron Pigeons V2",
+                        "slug": "iron-pigeons-v2",
+                        "logo": "https://i.seadn.io/gae/lzIt9ydMdxEdBCBxdSijj_beS0janYusr_yWEl3Jl4S7UwQDzvBtNcoPhxmrG8XmiYLaLl2om34adIjEZg3NOYbpITJPiZN2pxYgyA?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gae/lzIt9ydMdxEdBCBxdSijj_beS0janYusr_yWEl3Jl4S7UwQDzvBtNcoPhxmrG8XmiYLaLl2om34adIjEZg3NOYbpITJPiZN2pxYgyA?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "SOL",
+                            "asset": {
+                                "symbol": "SOL",
+                                "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.99",
+                                "eth": "0.0221801382"
+                            },
+                            "numOwners": 2714,
+                            "totalSupply": 11246.0,
+                            "totalSales": 13438.0,
+                            "sevenDaySales": 13438.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "4822.801344496990719990644603"
+                            },
+                            "oneHourSales": 64.0,
+                            "oneHourChange": -0.6808354608227816,
+                            "oneHourVolume": {
+                                "unit": "18.62740000000000058024886427",
+                                "eth": "0.417331622532000013"
+                            },
+                            "sixHourSales": 585.0,
+                            "sixHourChange": -0.2236477273474144,
+                            "sixHourVolume": {
+                                "unit": "207.3051900000000840021817357",
+                                "eth": "4.644502791694201882"
+                            },
+                            "oneDaySales": 13438.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "4822.801344496990719990644603"
+                            },
+                            "thirtyDaySales": 13438.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "4822.801344496990719990644603"
+                            },
+                            "totalVolume": {
+                                "unit": "4822.801344496990719990644603"
+                            },
+                            "totalListed": 17
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3MTIyNjg="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-07T09:09:10.690623",
+                        "name": "PECFriends",
+                        "slug": "pecfriends",
+                        "logo": "https://i.seadn.io/gcs/files/612d4a77da57f219105478c12d6c9897.gif?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/612d4a77da57f219105478c12d6c9897.gif?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.1434999",
+                                "eth": "0.1434999"
+                            },
+                            "numOwners": 495,
+                            "totalSupply": 1000.0,
+                            "totalSales": 1037.0,
+                            "sevenDaySales": 725.0,
+                            "sevenDayChange": 15.113371498551551,
+                            "sevenDayVolume": {
+                                "unit": "115.936052758228385073"
+                            },
+                            "oneHourSales": 110.0,
+                            "oneHourChange": 1.7590898067584264,
+                            "oneHourVolume": {
+                                "unit": "13.993799999999996686",
+                                "eth": "13.993799999999996686"
+                            },
+                            "sixHourSales": 244.0,
+                            "sixHourChange": 0.07207149259721883,
+                            "sixHourVolume": {
+                                "unit": "44.279554444444407579",
+                                "eth": "44.279554444444407579"
+                            },
+                            "oneDaySales": 398.0,
+                            "oneDayChange": 4.900951750643005,
+                            "oneDayVolume": {
+                                "unit": "90.885868768228391446"
+                            },
+                            "thirtyDaySales": 1037.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "123.131074158228415172"
+                            },
+                            "totalVolume": {
+                                "unit": "123.131074158228415172"
+                            },
+                            "totalListed": 141
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE0NzgxNjc="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-19T16:47:17.143378",
+                        "name": "Sol Credit",
+                        "slug": "sol-credit",
+                        "logo": "https://i.seadn.io/gae/xlnIP0nD1XIdAGZ7yuWQCymC7rXdkMjXElXcPzON4jvmwZViTDhq32qmppF8Ac27-4pNV8EagIf-z8FKvuUZ4ub-Zz6zpm9fIwFy?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gae/xlnIP0nD1XIdAGZ7yuWQCymC7rXdkMjXElXcPzON4jvmwZViTDhq32qmppF8Ac27-4pNV8EagIf-z8FKvuUZ4ub-Zz6zpm9fIwFy?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "SOL",
+                            "asset": {
+                                "symbol": "SOL",
+                                "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+                        },
+                        "statsV2": {
+                            "floorPrice": null,
+                            "numOwners": 59,
+                            "totalSupply": 201.0,
+                            "totalSales": 142.0,
+                            "sevenDaySales": 142.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "2381.67800472947365174712933"
+                            },
+                            "oneHourSales": 0.0,
+                            "oneHourChange": 0.0,
+                            "oneHourVolume": {
+                                "unit": "0",
+                                "eth": "0"
+                            },
+                            "sixHourSales": 3.0,
+                            "sixHourChange": 0.2,
+                            "sixHourVolume": {
+                                "unit": "1.20286767915630034216829181",
+                                "eth": "0.026949264000000001"
+                            },
+                            "oneDaySales": 142.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "2381.67800472947365174712933"
+                            },
+                            "thirtyDaySales": 142.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "2381.67800472947365174712933"
+                            },
+                            "totalVolume": {
+                                "unit": "2381.67800472947365174712933"
+                            },
+                            "totalListed": 0
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3NDA4NjI="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-19T13:54:33.754514",
+                        "name": "Wizards of the Tower Shade",
+                        "slug": "wizardsofthetowershade",
+                        "logo": "https://i.seadn.io/gcs/files/579099a220d7853e4c3049a8926683c9.png?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/579099a220d7853e4c3049a8926683c9.png?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.01",
+                                "eth": "0.01"
+                            },
+                            "numOwners": 2067,
+                            "totalSupply": 9700.0,
+                            "totalSales": 3340.0,
+                            "sevenDaySales": 3340.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "44.873490958009078611"
+                            },
+                            "oneHourSales": 27.0,
+                            "oneHourChange": -0.5494391527516082,
+                            "oneHourVolume": {
+                                "unit": "0.346729100000000068",
+                                "eth": "0.346729100000000068"
+                            },
+                            "sixHourSales": 437.0,
+                            "sixHourChange": 0.2871241428983254,
+                            "sixHourVolume": {
+                                "unit": "8.277989618649991499",
+                                "eth": "8.277989618649991499"
+                            },
+                            "oneDaySales": 3340.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "44.873490958009078611"
+                            },
+                            "thirtyDaySales": 3340.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "44.873490958009078611"
+                            },
+                            "totalVolume": {
+                                "unit": "44.873490958009078611"
+                            },
+                            "totalListed": 935
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3MzUxNTU="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-19T14:21:09.551551",
+                        "name": "Second Dimension Hanazawa Kana NFT",
+                        "slug": "hanazawakananft",
+                        "logo": "https://i.seadn.io/gcs/files/76c8afdb7c991d7c01c1c93a278bed85.png?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/76c8afdb7c991d7c01c1c93a278bed85.png?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.09",
+                                "eth": "0.09"
+                            },
+                            "numOwners": 1942,
+                            "totalSupply": 3004.0,
+                            "totalSales": 414.0,
+                            "sevenDaySales": 414.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "46.604789799998911803"
+                            },
+                            "oneHourSales": 90.0,
+                            "oneHourChange": 4.854264075470872,
+                            "oneHourVolume": {
+                                "unit": "7.756899899998904502",
+                                "eth": "7.756899899998904502"
+                            },
+                            "sixHourSales": 141.0,
+                            "sixHourChange": 2.0804362949349176,
+                            "sixHourVolume": {
+                                "unit": "14.150599899998901776",
+                                "eth": "14.150599899998901776"
+                            },
+                            "oneDaySales": 369.0,
+                            "oneDayChange": 10.545740082211623,
+                            "oneDayVolume": {
+                                "unit": "42.889999799998911101"
+                            },
+                            "thirtyDaySales": 414.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "46.604789799998911803"
+                            },
+                            "totalVolume": {
+                                "unit": "46.604789799998911803"
+                            },
+                            "totalListed": 183
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3MzY1Mzk="
+                    }
+                },
+                {
+                    "node": {
+                        "createdDate": "2022-10-20T11:39:40.030811",
+                        "name": "Blank Token",
+                        "slug": "blanktoken",
+                        "logo": "https://i.seadn.io/gcs/files/c5a29c93516d86e00d18bc00b7d86f49.gif?w=500&auto=format",
+                        "isVerified": false,
+                        "imageUrl": "https://i.seadn.io/gcs/files/c5a29c93516d86e00d18bc00b7d86f49.gif?w=500&auto=format",
+                        "isCategory": false,
+                        "nativePaymentAsset": {
+                            "symbol": "ETH",
+                            "asset": {
+                                "symbol": "ETH",
+                                "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                            },
+                            "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+                        },
+                        "statsV2": {
+                            "floorPrice": {
+                                "unit": "0.13",
+                                "eth": "0.13"
+                            },
+                            "numOwners": 792,
+                            "totalSupply": 1370.0,
+                            "totalSales": 278.0,
+                            "sevenDaySales": 278.0,
+                            "sevenDayChange": 0.0,
+                            "sevenDayVolume": {
+                                "unit": "34.977437997320038221"
+                            },
+                            "oneHourSales": 24.0,
+                            "oneHourChange": -0.5579245916545775,
+                            "oneHourVolume": {
+                                "unit": "3.306144444440000107",
+                                "eth": "3.306144444440000107"
+                            },
+                            "sixHourSales": 278.0,
+                            "sixHourChange": 0.0,
+                            "sixHourVolume": {
+                                "unit": "34.977437997320038221",
+                                "eth": "34.977437997320038221"
+                            },
+                            "oneDaySales": 278.0,
+                            "oneDayChange": 0.0,
+                            "oneDayVolume": {
+                                "unit": "34.977437997320038221"
+                            },
+                            "thirtyDaySales": 278.0,
+                            "thirtyDayChange": 0.0,
+                            "thirtyDayVolume": {
+                                "unit": "34.977437997320038221"
+                            },
+                            "totalVolume": {
+                                "unit": "34.977437997320038221"
+                            },
+                            "totalListed": 92
+                        },
+                        "id": "Q29sbGVjdGlvblR5cGU6MjE3NTg3MzQ="
+                    }
+                }
+            ]
+        }
+    }
+}

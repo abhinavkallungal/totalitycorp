@@ -1,0 +1,291 @@
+.nav {
+  max-width: 100vw;
+  max-height: 70px;
+  padding: 5px 15px;
+  background: transparent;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .nav {
+    padding: 5px 30px;
+  }
+}
+
+.nav .mobileNavIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav .mobileNavIcon {
+    display: none;
+  }
+}
+
+.nav .mobileNavIcon .navItem {
+  margin: 0px 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .nav .mobileNavIcon .navItem.mobileSearch {
+    display: none;
+  }
+}
+
+.navbarLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .navbarLogo {
+    width: 20%;
+  }
+}
+
+.navbarLogo .logoWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbarLogo .logoWrapper .logo {
+  margin-right: 10px;
+}
+
+.navbarLogo .logoWrapper .logoName {
+  fill: #04111D;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0px;
+}
+
+.mobileNav {
+  width: 100%;
+  height: 92vh;
+  background-color: #FFFFFF;
+  max-width: 450px;
+  position: absolute;
+  bottom: -2%;
+  left: 100%;
+  z-index: 1000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+
+.mobileNav.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transform: translate(-100%, 0%);
+          transform: translate(-100%, 0%);
+}
+
+@media screen and (min-width: 1200px) {
+  .mobileNav.active {
+    display: none;
+  }
+}
+
+.mobileNav .navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mobileNav .navList .navItem {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobileNav .navList .navItem .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #04111d;
+}
+
+.mobileNav .navList .navItem .name span {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mobileNav .button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+}
+
+.mobileNav .button .btn {
+  background-color: #2080e2;
+  padding: 20px 50px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.mobileNav .socialIcons {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 40px;
+  border-top: .5px solid #eee;
+}
+
+.mobileNav .socialIcons .icon {
+  margin: 10px;
+}
+
+.desktopNav {
+  width: 100%;
+}
+
+.desktopNav .desktopNavContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desktopNav .desktopNavContainer .searchWrapper {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin: 15px 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .desktopNav .desktopNavContainer .searchWrapper {
+    margin: 15px 10px;
+    display: none;
+  }
+}
+
+.desktopNav .desktopNavContainer .searchWrapper .searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desktopNav .desktopNavContainer .searchWrapper .searchbar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.desktopNav .desktopNavContainer .navItemWrapper {
+  width: 100%;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .desktopNav .desktopNavContainer .navItemWrapper {
+    display: block;
+  }
+}
+
+.desktopNav .desktopNavContainer .navItemWrapper .navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.desktopNav .desktopNavContainer .navItemWrapper .navList .navItems {
+  color: #04111d;
+  font-size: 16px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Navbar.css.map */
