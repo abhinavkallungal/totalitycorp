@@ -9,7 +9,6 @@ $xl: 1536px;
     max-height:100px;
     padding:5px 15px;
     background: transparent;
-    border-bottom: 1px solid #eee;
     display:flex;
     align-items: center;
     position:fixed;
@@ -17,7 +16,7 @@ $xl: 1536px;
     left: 0;
     right: 0;
     z-index: 1000;
-    transition: all 0.5s linear;
+    transition: all 0.5s ease-in-out;
     
     @media screen and (min-width: $sm) {
         padding:5px 30px;
@@ -213,4 +212,79 @@ $xl: 1536px;
     }
 
 }
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #222222
+  }
+  
+  /* Dropdown */
+  
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dd-button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px;
+    // padding: 10px 30px 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+
+  
+
+  
+  .dd-input {
+    display: none;
+  }
+  
+  .dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+  }
+  
+  .dd-input + .dd-menu {
+    display: none;
+  } 
+  
+  .dd-input:hover + .dd-menu {
+    display: block;
+  } 
+  
+  .dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+  }
+  
+  .dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
 

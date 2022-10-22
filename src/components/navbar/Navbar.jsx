@@ -23,14 +23,16 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import "./Navbar.scss";
 
 function Navbar() {
-  const ref=useRef()
-  const [mobileMenu,setMobileMenu] =useState(false)
-  
-  const toggleMobileMenu =()=>{
-    setMobileMenu(mobileMenu=> !mobileMenu)
+  const ref = useRef()
+  const [mobileMenu, setMobileMenu] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setMobileMenu(mobileMenu => !mobileMenu)
   }
+
   
-  window.addEventListener('scroll',()=>{
+
+  window.addEventListener('scroll', () => {
     console.log(window.scrollY)
     window.scrollY > 100 ? ref.current.classList.add('active') : ref.current.classList.remove('active')
     console.log(ref.current.classList)
@@ -48,35 +50,115 @@ function Navbar() {
         <div className="desktopNav">
           <div className="desktopNavContainer">
             <div className="searchWrapper">
-                <div className="searchbar">
-                  <SearchIcon/>
-                  <input type="text" placeholder='Search items, collections, and accounts' />
-                </div>
+              <div className="searchbar">
+                <SearchIcon />
+                <input type="text" placeholder='Search items, collections, and accounts' />
+              </div>
             </div>
             <div className="navItemWrapper">
-                <div className="navList">
-                  <div className="navItems">
-                    <span>Explore</span>
-                  </div>
-                  <div className="navItems">
-                    <span>Stats</span>
-                  </div>
-                  <div className="navItems">
-                    <span>Resources</span>
-                  </div>
-                  <div className="navItems">
-                    <span>Create</span>
-                  </div>
-                  <div className="navItems">
-                    <span><AccountCircleOutlinedIcon/></span>
-                  </div>
-                  <div className="navItems">
-                    <span><AccountBalanceWalletOutlinedIcon/></span>
-                  </div>
-                  <div className="navItems">
-                    <span><ShoppingCartOutlinedIcon/></span>
-                  </div>
+              <div className="navList">
+              <div className="navItems">
+                  <label class="dropdown">
+
+                    <div class="dd-button">
+                      Explore
+                    </div>
+
+                    <input type="checkbox" class="dd-input" id="test"/>
+
+                      <ul class="dd-menu">
+                        <li>All NFTs</li>
+                        <li>Solana NFTs</li>
+                        <li>Art</li>
+                        <li >Collectibles</li>
+                        <li >Domain Names</li>
+                        <li >Music </li>
+                        <li >Photography </li>
+                        <li >Sports</li>
+                        <li >Trending card</li>
+                        <li >Utility</li>
+                        <li >Virtual world</li>
+                        <li>
+                          <a href="http://rane.io">Link to Rane.io</a>
+                        </li>
+                      </ul>
+
+                  </label>
                 </div>
+              <div className="navItems">
+                  <label class="dropdown">
+
+                    <div class="dd-button">
+                    Stats
+                    </div>
+
+                    <input type="checkbox" class="dd-input" id="test"/>
+
+                      <ul class="dd-menu">
+                        <li>Ranking</li>
+                        <li>Activity</li>
+                      </ul>
+
+                  </label>
+                </div>
+              <div className="navItems">
+                  <label class="dropdown">
+
+                    <div class="dd-button">
+                    Resources
+                    </div>
+
+                    <input type="checkbox" class="dd-input" id="test"/>
+
+                      <ul class="dd-menu">
+                        <li>Learn</li>
+                        <li>Help center</li>
+                        <li>Platform Status</li>
+                        <li>Partners</li>
+                        <li>Taxes</li>
+                        <li>Blog</li>
+                        <li>Docs</li>
+                        <li>Newsletter</li>
+                     
+                      </ul>
+
+                  </label>
+                </div>
+                
+                <div className="navItems">
+                  <span>Create </span>
+                </div>
+                <div className="navItems">
+                  <label class="dropdown">
+
+                    <div class="dd-button">
+                  <AccountCircleOutlinedIcon />
+                    </div>
+
+                    <input type="checkbox" class="dd-input" id="test"/>
+
+                      <ul class="dd-menu">
+                        <li>profile</li>
+                        <li>Favorites</li>
+                        <li>Watchlist</li>
+                        <li>My collections</li>
+                        <li>Settings</li>
+                        <li>Language</li>
+                        
+                      </ul>
+
+                  </label>
+                </div>
+              
+                
+                <div className="navItems">
+                  <span><AccountBalanceWalletOutlinedIcon /></span>
+                </div>
+                <div className="navItems">
+                  <span><ShoppingCartOutlinedIcon /></span>
+                </div>
+                
+              </div>
             </div>
           </div>
         </div>
@@ -92,7 +174,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <div className={mobileMenu ? "mobileNav active " :"mobileNav" }>
+      <div className={mobileMenu ? "mobileNav active " : "mobileNav"}>
         <div className="navList">
           <div className="navItem">
             <div className="name">
@@ -147,29 +229,29 @@ function Navbar() {
           </div>
         </div>
         <div className="bottom">
-            <div className="button">
-                <button className="btn ">Connect wallet</button>
-            </div>
+          <div className="button">
+            <button className="btn ">Connect wallet</button>
+          </div>
 
-        <div className="footer">
+          <div className="footer">
             <div className="socialIcons">
-                    <div className="icon">
-                    <TwitterIcon/>
-                    </div>
-                    <div className="icon">
-                    <InstagramIcon/>
-                    </div>
-                    <div className="icon">
-                    <RedditIcon/>
-                    </div>
-                    <div className="icon">
-                    <YouTubeIcon/>
-                    </div>
-                    <div className="icon">
-                    <MusicNoteIcon/>
-                    </div>
+              <div className="icon">
+                <TwitterIcon />
+              </div>
+              <div className="icon">
+                <InstagramIcon />
+              </div>
+              <div className="icon">
+                <RedditIcon />
+              </div>
+              <div className="icon">
+                <YouTubeIcon />
+              </div>
+              <div className="icon">
+                <MusicNoteIcon />
+              </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </div>
