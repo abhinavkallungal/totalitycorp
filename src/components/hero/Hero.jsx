@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './hero.scss'
 
 let image =[
@@ -13,6 +13,23 @@ let image =[
 ]
 
 function Hero() {
+  const ref = useRef(null);
+
+  const scrollLeft = (scrollOffset) => {
+    console.log( ref.current.scrollLeft)
+    console.log( ref.current.children[1].offsetWidth)
+    console.log(ref.current.offsetWidth)
+    ref.current.scrollLeft -= ref.current.children[0].offsetWidth;
+  };
+  const scrollRight = (scrollOffset) => {
+    console.log( ref.current.scrollLeft)
+    console.log( ref.current.children.length)
+    console.log( ref.current.scrollLeft/ref.current.children[0].offsetWidth)
+    console.log( ref.current.children[1].offsetWidth)
+    console.log( ref.current.children[0].offsetWidth)
+    console.log(ref.current.offsetWidth)
+    ref.current.scrollLeft += ref.current.offsetWidth;
+  };
   return (
     <div className="hero">
       <div className="container">
@@ -21,7 +38,7 @@ function Hero() {
         
         <div className="slider">
           <div className="slidercontainer">
-            <div className="slide-track">
+            <div className="slide-track" ref={ref}>
               {
                 image.map((url,index) =>(
                   <div className="slides">
@@ -31,8 +48,8 @@ function Hero() {
               }
                
             </div>
-            <div className="pre">&lt;</div>
-            <div className="next"> &gt;</div>
+            <div className="pre" onClick={scrollLeft}>&lt;</div>
+            <div className="next" onClick={scrollRight}> &gt;</div>
           </div>
         </div>
 

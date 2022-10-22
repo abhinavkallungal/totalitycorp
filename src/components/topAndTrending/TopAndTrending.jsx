@@ -29,8 +29,12 @@ function TopAndTrending() {
 
                 <tr>
                   <th colspan="3" align='left'>COLLECTION</th>
-                  <th>FLOOR PRICE</th>
-                  <th>VOLUME</th>
+                  <th  align='left'  >
+                  <span className="floorPrice">
+                    FLOOR PRICE
+                  </span>
+                  </th>
+                  <th  align='left'>VOLUME</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -40,14 +44,81 @@ function TopAndTrending() {
                     if(index<5){
 
                       return (
-                        <tr>
+                        <tr  style={{margin:'20px 0px'}}>
                         <td>{index+1}</td>
                         <td>
-                          <div>
-                            <img src={item?.node.logo}  width="60" height="60"/>
+                          <div style={{marginLeft:'20px'}}>
+                            <img src={item?.node.logo}  width="70" height="70" style={{borderRadius:'10px'}}/>
                           </div>
                         </td>
-                        <td>{item?.node.name} </td>
+                        <td>
+                          <div>
+                            <p>
+                          {item?.node.name}
+                            </p>
+                          <span className='mobileFloorPrice'>
+                            floor :{`${item?.node?.statsV2?.floorPrice?.unit?.slice(0, 4) || item?.node?.statsV2?.oneDayChange?.slice(0, 4)}  ${item?.node.nativePaymentAsset.nativePaymentAsset || item?.node.nativePaymentAsset.symbol}`} 
+                          </span>
+                          </div>
+                           </td>
+                        <td >
+                        <span className="floorPrice">
+
+                          {`${item?.node?.statsV2?.floorPrice?.unit?.slice(0, 4) || item?.node?.statsV2?.oneDayChange?.slice(0, 4)}  ${item?.node.nativePaymentAsset.nativePaymentAsset || item?.node.nativePaymentAsset.symbol}`} 
+                          </span>
+                          </td>
+                        <td>{`${item?.node.statsV2.oneDaySales}  ${item?.node.nativePaymentAsset.nativePaymentAsset || item?.node.nativePaymentAsset.symbol}`} </td>
+                      </tr>
+                    )
+                  }
+                  })
+                }
+                </tbody>
+
+
+              </table>
+            </div>
+            <div className="col-lg-6">
+              <table style={{width:'100%'}} >
+                <thead>
+
+                <tr>
+                  <th colspan="3" align='left'>COLLECTION</th>
+                  <th  align='left' ><span className="floorPrice">
+                    FLOOR PRICE
+                  </span></th>
+                  <th  align='left'>VOLUME</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {
+                  data.trendingCollections.edges.map((item,index) => {
+                    if(index >= 5 && index <10){
+
+                      return (
+                        <tr  style={{margin:'20px 0px'}}>
+                        <td>{index+1}</td>
+                        <td>
+                          <div style={{marginLeft:'20px'}}>
+                            <img src={item?.node.logo}  width="70" height="70" style={{borderRadius:'10px'}}/>
+                          </div>
+                        </td>
+                        <td><div>
+                            <p>
+                          {item?.node.name}
+                            </p>
+                          <span className='mobileFloorPrice'>
+                            floor :{`${item?.node?.statsV2?.floorPrice?.unit|| item?.node?.statsV2?.oneDayChange}  ${item?.node.nativePaymentAsset.nativePaymentAsset || item?.node.nativePaymentAsset.symbol}`} 
+                          </span>
+                          </div> </td>
+                        <td >
+                          <span className="floorPrice">
+
+                          {`${item?.node?.statsV2?.floorPrice?.unit || item?.node?.statsV2?.oneDayChange}  ${item?.node.nativePaymentAsset.nativePaymentAsset || item?.node.nativePaymentAsset.symbol}`} 
+                          </span>
+                          </td>
+                        <td>{`${item?.node.statsV2.oneDaySales}  ${item?.node.nativePaymentAsset.nativePaymentAsset || item?.node.nativePaymentAsset.symbol}`} </td>
                       </tr>
                     )
                   }

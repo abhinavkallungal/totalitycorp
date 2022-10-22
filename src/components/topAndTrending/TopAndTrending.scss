@@ -9,35 +9,42 @@ $xl: 1536px;
     padding:10px 0;
     outline:none;
     border: none;
-    font-size:26px;
+    font-size:16px;
     color: #707A83;
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 5px;
     cursor: pointer;
     &.active{
         color: #353840;
         border-bottom: 3px solid #353840;
-
     }
+
 }
 
 .btn-outline{
     background-color:#ffffff;
-    padding:10px 20px;
+    padding:5px 10px;
     border-radius:10px;
     outline:none;
     border: 2px solid #e5e8eb;
-    font-size:20px;
+    font-size:16px;
     color: #707A83;
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 5px;
     cursor: pointer;
+    height:45px;
+
  
-    
 }
 
 .col-lg-6{
-    width:50%;
+    width:100%;
+    
+    @media screen and (min-width: $md) {
+        width:45%;
+    }
+   
+    
 }
 
 .topAndTrending{
@@ -52,20 +59,22 @@ $xl: 1536px;
             align-items: flex-end;
             justify-content:space-between;
             border-bottom:1px solid #cdcdcd;
+            font-size:16px;
 
             .item{
-
+                display: flex;
+                align-items:center;
                 #time{
                     border-radius: 12px;
                     border: 2px solid #e5e8eb;
                     font-weight: 600;
                     font-size: 16px;
                     transition: all 0.25s ease-in-out 0s;
-                    width: 100px;
+                    width: 80px;
                     height:45px;
                     font-weight: 600;
                     color: rgb(53, 56, 64);
-                    margin:10px 10px;
+                    margin:10px 5px;
                     padding:5px 10px ;
                     background-color:#ffffff;
                     
@@ -77,6 +86,58 @@ $xl: 1536px;
                         border: 1px solid red;
                         border-radius: 5px;
                       }
+                }
+            }
+        }
+
+        .body{
+            .row{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                @media screen and (min-width: $md) {
+                    flex-direction: row;
+                }
+
+                table{
+                    thead{
+
+                        th{
+
+                            font-size: 12px;
+                            color: #707A83;
+                            padding: 10px;
+                        }
+                    }
+                    tbody{
+                        tr{
+                            margin-top:20px;
+                            font-size:14px;
+                            td{
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .floorPrice{
+                        display: none;
+                        vertical-align: center;
+                        @media screen and (min-width: $sm) {
+                            display: block;
+                        }
+
+                    }
+
+                    .mobileFloorPrice{
+                        display:block;
+                        font-size:12px;
+                        color:#707A83;
+
+                        @media screen and (min-width: $sm) {
+                            display: none;
+                        }
+
+                    }
                 }
             }
         }

@@ -676,7 +676,7 @@
                         "imageUrl": "https://i.seadn.io/gae/aI3doXhNBcO8A91GUZ1TnCClh94rVrABuajlIzMqeY5aFYgagq447YwFxCr4mcIHQquJLGEcWfB_rjEZAWT1NBzB8qt07JVFTHew2Q?w=500&auto=format",
                         "isCategory": false,
                         "nativePaymentAsset": {
-                            "symbol": "ETH",
+                            "nativePaymentAsset": "ETH",
                             "asset": {
                                 "symbol": "ETH",
                                 "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
