@@ -6,7 +6,7 @@ $xl: 1536px;
 
 .nav{
     max-width: 100vw;
-    max-height:70px;
+    max-height:100px;
     padding:5px 15px;
     background: transparent;
     border-bottom: 1px solid #eee;
@@ -16,9 +16,18 @@ $xl: 1536px;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
+    transition: all 0.5s linear;
     
     @media screen and (min-width: $sm) {
         padding:5px 30px;
+    }
+
+    &.active{
+        background-color: #FFFFFF;
+        max-height:70px;
+
+
     }
   
 
@@ -161,6 +170,7 @@ $xl: 1536px;
            max-width: 600px;
            padding: 10px;
            margin:15px 20px ;
+            border:2px solid #dcdcdc;
            @media screen and (max-width: 800px) {
             margin: 15px 10px ;
             display:none

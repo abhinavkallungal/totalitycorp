@@ -15,12 +15,12 @@ function App() {
       <div className="hero">
           <Navbar/>
           <Hero/>
+      </div>
           <TopAndTrending/>
           <SliderWithHeading name='New and notable' data={profile.new_and_notable}/>
           <SliderWithHeading name='Dreamers spotlight' data={profile.dreamers_spotlight}/>
           <Categories/>
           <Footer/>
-      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import React from "react";
 import Logo from "../../assets/images/logo.svg";
 import SearchIcon from "@mui/icons-material/Search";
@@ -23,15 +23,22 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import "./Navbar.scss";
 
 function Navbar() {
-    const [mobileMenu,setMobileMenu] =useState(false)
-
-    const toggleMobileMenu =()=>{
-        setMobileMenu(mobileMenu=> !mobileMenu)
-    }
+  const ref=useRef()
+  const [mobileMenu,setMobileMenu] =useState(false)
+  
+  const toggleMobileMenu =()=>{
+    setMobileMenu(mobileMenu=> !mobileMenu)
+  }
+  
+  window.addEventListener('scroll',()=>{
+    console.log(window.scrollY)
+    window.scrollY > 100 ? ref.current.classList.add('active') : ref.current.classList.remove('active')
+    console.log(ref.current.classList)
+  })
 
   return (
-    <div className="Navbar">
-      <div className="nav">
+    <div className="Navbar" >
+      <div className="nav" ref={ref}>
         <div className="navbarLogo">
           <div className="logoWrapper">
             <img src={Logo} className="logo" alt="" height="40px" />
