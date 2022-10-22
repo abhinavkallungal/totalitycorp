@@ -100,6 +100,13 @@ $xl: 1536px;
                     flex-direction: row;
                 }
 
+                .right{
+                    display: none;
+                    @media screen and (min-width: $md) {
+                        display: block;
+                    }
+                }
+
                 table{
                     thead{
 

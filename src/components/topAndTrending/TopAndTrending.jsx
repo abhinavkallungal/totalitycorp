@@ -78,7 +78,7 @@ function TopAndTrending() {
 
               </table>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 right">
               <table style={{width:'100%'}} >
                 <thead>
 
